@@ -14,9 +14,8 @@ func init() {
 	readQuotes()
 }
 
-//throw an error instead of print an error
 func readQuotes() {
-	quotes, err := os.Open("E:\\bots\\iroh\\resources\\quotes.txt")
+	quotes, err := os.Open("E:\\bots\\iroh_bot\\resources\\quotes.txt")
 
 	if err != nil {
 		log.Fatal(err)

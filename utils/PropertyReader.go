@@ -10,7 +10,7 @@ import (
 var propertyMap = make(map[string]string)
 
 func ReadProperties() {
-	properties, err := os.Open("E:\\bots\\iroh\\resources\\irohbot.properties")
+	properties, err := os.Open("E:\\bots\\iroh_bot\\resources\\irohbot.properties")
 
 	if err != nil {
 		log.Fatal(err)
